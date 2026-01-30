@@ -974,7 +974,7 @@ body header ul.util-menu li button i {
   }
   body.main header nav#main-menu ul.menu {
     position: absolute;
-    z-index: 600;
+    z-index: 1200;
     left: 0;
     right: 0;
     top: 100px;
@@ -5421,6 +5421,11 @@ body div#content.sub section.sub-content.work .container div#tab05 ul li h4 {
   margin: 0 0 2.14285714rem;
   text-align: center;
 }
+body div#content.sub section.sub-content.wcenter .container h3 {
+  font-size: 30px;
+  text-align: center;
+  font-weight: 800;
+}
 body div#content.sub section.sub-content.wcenter .container div.project {
   margin: 2.85714286rem 0 0;
 }
@@ -5496,6 +5501,15 @@ body div#content.sub section.sub-content.wcenter .container div.project p.img.im
 }
 body div#content.sub section.sub-content.wcenter .container div.project p.img.img21 {
   background: url("/wp/assets/source/images/img-wcenter21.jpg") no-repeat center / cover;
+}
+body div#content.sub section.sub-content.wcenter .container div.project p.img.img22 {
+  background: url("/wp/assets/source/images/img-wcenter22.jpg") no-repeat center / cover;
+}
+body div#content.sub section.sub-content.wcenter .container div.project p.img.img23 {
+  background: url("/wp/assets/source/images/img-wcenter23.jpg") no-repeat center / cover;
+}
+body div#content.sub section.sub-content.wcenter .container div.project p.img.img24 {
+  background: url("/wp/assets/source/images/img-wcenter24.jpg") no-repeat center / cover;
 }
 body div#content.sub section.sub-content.wcenter .container div.project > ul {
   list-style: none;
@@ -5614,13 +5628,13 @@ section.sub-content.wcenter .container div.project div.schedule p.title strong {
   display: block;
   font-weight: 600;
   font-size: 1.28571429rem;
-  padding: 0 0 0 3.57142857rem;
+  padding: 6px 0 0 3.57142857rem;
   margin: 0 0 0.71428571rem;
 }
 @media all and (min-width: 1200px) {
   section.sub-content.wcenter .container div.project div.schedule p.title strong {
     font-size: 26px;
-    padding: 0 0 0 70px;
+    padding: 6px 0 0 70px;
     margin: 0 0 20px;
   }
 }
@@ -5634,6 +5648,16 @@ section.sub-content.wcenter .container div.project div.schedule p.title strong s
     font-size: 16px;
   }
 }
+
+section.sub-content.wcenter .container div.project div.schedule p.subtitle {
+  font-size: 18px;
+  margin: 20px 0 10px;
+}
+
+section.sub-content.wcenter .container div.project div.schedule p.subtitle strong {
+  font-weight: 500;
+}
+
 section.sub-content.wcenter .container div.project div.schedule ul {
   border-radius: 0.71428571rem;
   list-style: none;
@@ -5848,6 +5872,9 @@ section.sub-content.wcenter .container div#tab06 dl dd.goal h5:nth-of-type(2) {
 }
 section.sub-content.wcenter .container div#tab06 dl dd.goal h5:nth-of-type(3) {
   background: url("/wp/assets/source/images/main-links10.svg") no-repeat center top / 100% auto;
+}
+section.sub-content.wcenter .container div#tab06 dl dd.goal h5:nth-of-type(4) {
+  background: url("/wp/assets/source/images/main-links04.svg") no-repeat center 45px / 70% auto;
 }
 @media all and (min-width: 1200px) {
   section.sub-content.wcenter .container div#tab06 dl dd.rule {
@@ -8469,7 +8496,16 @@ body div#content.sub section.sub-content.dm .container h3 {
 }
 @media all and (min-width: 1200px) {
   body div#content.sub section.sub-content.dm .container h3 {
-    font-size: 20px;
+    font-size: 24px;
+  }
+}
+body div#content.sub section.sub-content.dm .container h3 small {
+  display: block;
+  font-size: 1.14285714rem;
+}
+@media all and (min-width: 1200px) {
+  body div#content.sub section.sub-content.dm .container h3 small {
+    font-size: 18px;
   }
 }
 body div#content.sub section.sub-content.dm .container div.infotext {
